@@ -10,6 +10,10 @@
     .banner-area h1 {
         font-size: 60px;
     }
+    .try-for {
+    background: rgba(0, 0, 0, 0) url("") no-repeat scroll center top;
+    min-height: 250px;
+	}
 }
 /* Mobile Layout: 320px. */
 
@@ -69,6 +73,10 @@
         font-size: 15px;
         width: 100%;
     }
+    .try-for {
+    background: rgba(0, 0, 0, 0) url("") no-repeat scroll center top;
+    min-height: 250px;
+	}
 }
 /* Wide Mobile Layout: 480px. */
 
@@ -91,4 +99,8 @@
     .padding-none {
         padding: 0 15px;
     }
+    .try-for {
+    background: rgba(0, 0, 0, 0) url("") no-repeat scroll center top;
+    min-height: 250px;
+	}
 }
