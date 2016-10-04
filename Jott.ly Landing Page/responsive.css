@@ -1,0 +1,94 @@
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .footer-bottom-area {
+        font-size: 15px;
+    }
+    .single-stories {
+        text-align: center;
+    }
+    .banner-area h1 {
+        font-size: 60px;
+    }
+}
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 479px) {
+    .footer-bottom-area {
+        font-size: 12px;
+    }
+    .single-stories {
+        text-align: center;
+    }
+    .banner-area h1 {
+        font-size: 40px;
+    }
+    .single-stories {
+        min-height: 300px;
+    }
+    .single-team {
+        min-height: 245px;
+    }
+    .padding-none {
+        padding: 0 15px;
+    }
+    .banner-area p {
+        font-size: 15px;
+    }
+    .try-for {
+        min-height: 200px;
+    }
+    .try-for > a {
+        font-size: 15px;
+        margin-top: 100px;
+    }
+    .single-features h2,
+    .what-clients h2,
+    .meet-text h2,
+    .footer-top-area h2 {
+        font-size: 25px;
+    }
+    .features-area {
+        font-size: 15px;
+    }
+    .stories-area {
+        font-size: 15px;
+    }
+    .meet-team {
+        font-size: 15px;
+    }
+    .footer-top-area {
+        font-size: 15px;
+    }
+    .footer-top-area input[type="text"] {
+        font-size: 15px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .footer-top-area input[type="submit"] {
+        font-size: 15px;
+        width: 100%;
+    }
+}
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .footer-bottom-area {
+        font-size: 12px;
+    }
+    .single-stories {
+        text-align: center;
+    }
+    .banner-area h1 {
+        font-size: 50px;
+    }
+    .single-stories {
+        min-height: 300px;
+    }
+    .single-team {
+        min-height: 245px;
+    }
+    .padding-none {
+        padding: 0 15px;
+    }
+}
