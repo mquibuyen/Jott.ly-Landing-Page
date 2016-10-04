@@ -1,0 +1,303 @@
+.floatleft {
+    float: left
+}
+.floatright {
+    float: right
+}
+.alignleft {
+    float: left;
+    margin-right: 10px;
+}
+.alignright {
+    float: right;
+    margin-left: 10px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto
+}
+a,
+a:active,
+a:focus,
+a:active {
+    text-decoration: none !important
+}
+a:focus {
+    outline: 0px solid
+}
+img {
+    max-width: 100%
+}
+.fix:before {
+    content: "";
+    display: table;
+    clear: both;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    margin: 0 0 15px;
+}
+.column {
+    width: 960px;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.9s ease 0s;
+    -moz-transition: all 0.9s ease 0s;
+    -webkit-transition: all 0.9s ease 0s;
+    -o-transition: all 0.9s ease 0s;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.header-area nav.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+.header-area nav.navbar-default.top-nav-collapse {
+    background-color: #556370;
+    margin-bottom: 0;
+    min-height: 85px;
+    padding-top: 5px;
+}
+.header-area {
+    background: rgba(0, 0, 0, 0) url("img/header-background.png") no-repeat scroll 0 0 / 100% 100%;
+}
+.banner-area {
+    color: #ffffff;
+    margin-top: 125px;
+    text-align: center;
+}
+.banner-area h1 {
+    font-size: 72px;
+    margin-top: 0px;
+}
+.banner-area p {
+    font-size: 18px;
+}
+.try-for {
+    background: rgba(0, 0, 0, 0) url("img/macbook.png") no-repeat scroll center top;
+    min-height: 250px;
+}
+.try-for > a {
+    background: #0fa8c3 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 150px;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.navbar > .container .header .navbar-brand {
+    margin-left: 0px;
+}
+.header .navbar-brand {
+    padding: 0;
+}
+.header-area .navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+    font-size: 18px;
+    padding: 12px 10px;
+}
+.header-area .navbar-default .navbar-nav > .active > a,
+.header-area .navbar-default .navbar-nav > .active > a:hover,
+.header-area .navbar-default .navbar-nav > .active > a:focus {
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 2px solid #d4e9e3;
+    color: #fff;
+}
+.main-menu {
+    margin-top: 10px;
+}
+.features-area {
+    color: #556370;
+    font-size: 18px;
+    padding-bottom: 25px;
+    padding-top: 95px;
+    text-align: center;
+}
+.icon {
+    background: #00b699 none repeat scroll 0 0;
+    border-radius: 500px;
+    height: 140px;
+    padding-top: 20px;
+    text-align: center;
+    width: 140px;
+    margin: 0 auto;
+}
+.single-features h2 {
+    color: #00b699;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.stories-area {
+    background: #0fa8c3 none repeat scroll 0 0;
+    color: #ffffff;
+    font-size: 18px;
+    padding-top: 70px;
+}
+.what-clients h2 {
+    color: #45515c;
+    font-size: 36px;
+    margin-top: 25px;
+}
+.single-stories > p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-top: 10px;
+    opacity: 0;
+}
+.single-stories {
+    padding: 10px;
+    cursor: pointer;
+}
+.single-stories img {
+    border: 4px solid transparent
+}
+.single-stories:hover {
+    background: #A1D7C9;
+    transition: all 0.9s ease 0s;
+    -moz-transition: all 0.9s ease 0s;
+    -webkit-transition: all 0.9s ease 0s;
+    -o-transition: all 0.9s ease 0s;
+}
+.single-stories:hover> img {
+    border: 4px solid #0bb89c;
+    transition: all 0.9s ease 0s;
+    -moz-transition: all 0.9s ease 0s;
+    -webkit-transition: all 0.9s ease 0s;
+    -o-transition: all 0.9s ease 0s;
+}
+.single-stories:hover> p {
+    opacity: 1;
+    transition: all 1.5s ease 0s;
+    -moz-transition: all 1.5s ease 0s;
+    -webkit-transition: all 1.5s ease 0s;
+    -o-transition: all 1.5s ease 0s;
+}
+.meet-team {
+    color: #455460;
+    font-size: 18px;
+    padding-bottom: 5px;
+    padding-top: 90px;
+}
+.padding-none {
+    padding: 0px;
+}
+.single-team > p {
+    color: #00b699;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    margin-top: 5px;
+    opacity: 0;
+}
+.meet-text h2 {
+    color: #00b699;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.single-team {
+    cursor: pointer;
+    text-align: center;
+}
+.footer-top-area {
+    background: #d4e9e3 none repeat scroll 0 0;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    text-align: center;
+    color: #556370;
+    font-size: 18px;
+}
+.footer-top-area h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #00b699;
+}
+.footer-top-area input[type=text] {
+    background: #ffffff none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 5px;
+    font-size: 18px;
+    height: 50px;
+    margin-right: 5px;
+    outline: 1px solid none;
+    padding-left: 10px;
+    width: 380px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+.footer-top-area input[type=submit] {
+    background: #00B699 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 5px;
+    font-size: 18px;
+    height: 50px;
+    outline: 1px solid none;
+    width: 190px;
+    font-weight: 700;
+    color: #fff;
+}
+.footer-bottom-area {
+    background: #00b699 none repeat scroll 0 0;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer-links ul li {
+    display: inline;
+}
+.footer-links ul li a {
+    color: #ffffff;
+    display: inline-block;
+    padding-right: 20px;
+    position: relative;
+    font-weight: 300;
+}
+.footer-links ul li a:before {
+    content: "/";
+    left: -15px;
+    position: absolute;
+}
+.footer-links ul li:first-child a:before {
+    display: none;
+}
+.copy-right > p {
+    margin-bottom: 0;
+}
+.single-team > img {
+    border: 4px solid rgba(0, 0, 0, 0);
+}
+.single-team:hover> img {
+    border: 4px solid #0bb89c;
+    transition: all 0.9s ease 0s;
+    -moz-transition: all 0.9s ease 0s;
+    -webkit-transition: all 0.9s ease 0s;
+    -o-transition: all 0.9s ease 0s;
+}
+.single-team:hover> p {
+    opacity: 1;
+    transition: all 1.5s ease 0s;
+    -moz-transition: all 1.5s ease 0s;
+    -webkit-transition: all 1.5s ease 0s;
+    -o-transition: all 1.5s ease 0s;
+}
+.main-menu.collapse.in {
+    background: #556370;
+}
